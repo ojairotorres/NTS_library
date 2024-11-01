@@ -28,5 +28,12 @@ public class livro {
         return id;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+    public String setTitulo() {
+        return titulo;
+    }
+
 
 }

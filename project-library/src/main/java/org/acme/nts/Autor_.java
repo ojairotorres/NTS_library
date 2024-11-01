@@ -1,6 +1,9 @@
 package org.acme.nts;
 
 import jakarta.persistence.*;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
 
 import java.util.List;
 
@@ -25,10 +28,33 @@ public class Autor_ {
         this.nome = nome;
         this.sobrenome = sobrenome;
     }
-
+/*GETTERS*/
     public Long getId() {
         return id;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+/*SETTERS*/
+    public Long setId() {
+        return id;
+    }
+
+    public String setNome() {
+        return nome;
+    }
+
+    public String setSobrenome() {
+        return sobrenome;
+    }
+
+
+
 
 
 }
